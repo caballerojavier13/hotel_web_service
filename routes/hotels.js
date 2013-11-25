@@ -3,11 +3,11 @@ var mongo = require('mongodb');
 var Db = mongo.Db,
     BSON = mongo.BSONPure;
 // mongodb://<user>:<pass>@mongo.onmodulus.net:27017/oreZan8u
-
+//mongodb://nodejitsu:e76b99ddbf1c91761524a99778d00eb1@paulo.mongohq.com:10097/nodejitsudb6851499811
 var MongoClient = require('mongodb').MongoClient;
 
 MongoClient.connect(
-  'mongodb://root:root@mongo.onmodulus.net:27017/oreZan8u',
+  'mongodb://root:root@dbh45.mongolab.com:27457/hotel',
   function(err, db) {
     Db = db
   }
